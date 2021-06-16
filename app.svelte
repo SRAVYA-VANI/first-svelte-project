@@ -7,7 +7,7 @@
 	</script>
 
 <main>
-    <h1>hello!this is {firstname}!!!!</h1>
+    <h1>hello!this is {firstname}{lastname}!!!!</h1>
     <label for="firstname">FIRST NAME</label>
 	<input type="text" bind:value={firstname}>
 	<label for="lastname">LAST NAME</label>
